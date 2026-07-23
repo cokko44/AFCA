@@ -1,3 +1,10 @@
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+
+![License](https://img.shields.io/badge/License-Apache%202.0-green)
+
+![Tests](https://img.shields.io/badge/Tests-Passing-success)
+
+![Status](https://img.shields.io/badge/Status-Stable-brightgreen)
 # ACFA
 
 **Adaptive Cognitive Field Architecture (ACFA)** is an open research specification that defines a formal mathematical framework for modular, testable, and extensible cognitive state transition systems.
