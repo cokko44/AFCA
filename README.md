@@ -1,2 +1,1 @@
-# # ACFA
-Adaptive Cognitive Field Architecture (ACFA): An open research specification defining a formal mathematical framework for modular, testable, and extensible cognitive state transition systems.
+# # ACFAAdaptive Cognitive Field Architecture (ACFA) is an open research specification that defines a formal mathematical framework for modular, testable, and extensible cognitive state transition systems.
