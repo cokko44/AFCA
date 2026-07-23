@@ -18,3 +18,6 @@ Contributions should preserve:
 
 1. Fork the repository
 2. Create a feature branch
+3. Implement your changes
+4. Add tests
+5. Run all tests
