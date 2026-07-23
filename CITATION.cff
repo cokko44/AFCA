@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+
+title: Adaptive Cognitive Field Architecture (ACFA)
+
+message: >
+  If you use ACFA in academic work,
+  please cite this repository.
+
+authors:
+  - family-names: Koç
+    given-names: Coşkun
+
+version: 1.0.0
+
+license: Apache-2.0
+
+repository-code: https://github.com/cokko44/ACFA
+
+abstract: >
+  ACFA defines a formal mathematical framework
+  for modular cognitive state transition systems.
+
+keywords:
+  - cognitive architecture
+  - state transition
+  - optimization
+  - benchmark
+  - mathematics
