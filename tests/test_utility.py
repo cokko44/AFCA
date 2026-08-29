@@ -1,3 +1,5 @@
+import pytest
+
 from acfa.state import State
 from acfa.transition import Transition
 from acfa.utility import (
@@ -119,7 +121,7 @@ def test_transition_utility_evaluation():
         ),
     )
 
-    assert utility.evaluate(transition) == -0.2
+    assert utility.evaluate(transition) == pytest.approx(-0.2)
 
 
 def test_evaluate_transition_utilities():
@@ -158,8 +160,8 @@ def test_evaluate_transition_utilities():
     )
 
     assert result.total == 0.0
-    assert result.get("energy_change") == -0.2
-    assert result.get("focus_change") == 0.2
+    assert result.get("energy_change") == pytest.approx(-0.2)
+    assert result.get("focus_change") == pytest.approx(0.2)
 
 
 def test_empty_transition_utilities():
